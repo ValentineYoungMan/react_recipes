@@ -1,0 +1,129 @@
+.mainBlock {
+  color: #080e14;
+}
+.form {
+  padding: 50px 20px;
+}
+.inputName {
+  margin-bottom: 30px;
+}
+.name {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 2px solid #d5d6d8;
+  border-radius: 3px;
+}
+.input__number::-webkit-outer-spin-button,
+.input__number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.img {
+  margin-bottom: 30px;
+}
+.descpiption {
+  margin-bottom: 30px;
+}
+.descpiption__title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.textarea {
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+}
+.select {
+  width: 250px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.select__header {
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select__current {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 8px;
+  &__disabled {
+    opacity: 0.5;
+  }
+}
+.select__body {
+  border: 1px solid #cccccc;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  background-color: #ffffff;
+}
+.select__item {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  &:hover {
+    background-color: #f2f2f2;
+  }
+  &__disabled {
+    opacity: 0.5;
+  }
+}
+.ingredients__container {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.ingredients__item {
+  display: inline-flex;
+  padding: 5px 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin: 10px;
+}
+.ingredients__name {
+}
+.ingredients__delete {
+  margin-left: 10px;
+}
+
+.instruction {
+}
+.instruction__title {
+}
+.button {
+  background-color: #a3b745;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  font-size: 18px;
+}
+.adding {
+  margin-top: 20px;
+  &:disabled {
+    opacity: 0.7;
+  }
+}
+.submit {
+  margin-left: 20px;
+  margin-bottom: 50px;
+  &:disabled {
+    opacity: 0.7;
+  }
+}
+.error {
+  color: red;
+  font-weight: 600;
+}

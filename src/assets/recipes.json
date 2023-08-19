@@ -1,0 +1,93 @@
+[
+  {
+    "id": "0",
+    "name": "Fishing soup",
+    "categoryName": "soup",
+    "weight": 130,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis mattis velit, at pretium turpis mattis eu. In fringilla eleifend vestibulum. Aliquam vitae luctus elit. Curabitur maximus tortor at metus sodales, eu finibus nunc tincidunt. Curabitur arcu libero, sollicitudin in elit sed, fringilla venenatis lectus. Quisque vel vestibulum ex. Nulla ac ligula sit amet mauris volutpat eleifend at quis nibh. Sed varius ut lacus ac iaculis. ",
+    "instruction": "Vestibulum quis efficitur diam, egestas finibus velit. Nullam ac ligula tristique, blandit ex id, ullamcorper risus. Aenean quam lectus, ultrices iaculis nibh eu, vestibulum dignissim lorem. Sed quis sem in sapien vulputate tincidunt sit amet ac dui. Phasellus vitae sapien ut quam eleifend mollis ac ac nulla.",
+    "ingredients": ["salmon", "potato", "onion", "carrot", "salt", "pepper", "greenery", "water"],
+    "isLiked": false
+  },
+  {
+    "id": "1",
+    "name": "Chicken noodles",
+    "categoryName": "noodles",
+    "weight": 350,
+    "description": "Curabitur sed velit congue, suscipit metus vel, suscipit purus. Proin porttitor sodales quam a tempor. Aliquam sit amet ex eget nibh malesuada rhoncus sit amet vel ante. Cras eros dui, efficitur vitae interdum nec, pharetra vel lacus. Proin vitae rutrum augue. Vivamus feugiat varius eros a commodo.  ",
+    "instruction": " Vivamus feugiat varius eros a commodo. Vivamus posuere massa sit amet nisi consequat iaculis. Vivamus eu eros eu nisi congue finibus.",
+    "ingredients": [
+      "chicken fillet",
+      "olive oil",
+      "onion",
+      "carrot",
+      "coriander",
+      "noodles",
+      "butter",
+      "eggs",
+      "pepper",
+      "soy sauce"
+    ],
+    "isLiked": false
+  },
+  {
+    "id": "2",
+    "name": "Rice with mushrooms",
+    "categoryName": "rice",
+    "weight": 130,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis mattis velit, at pretium turpis mattis eu. In fringilla eleifend vestibulum. Aliquam vitae luctus elit. Curabitur maximus tortor at metus sodales, eu finibus nunc tincidunt. Curabitur arcu libero, sollicitudin in elit sed, fringilla venenatis lectus. Quisque vel vestibulum ex. Nulla ac ligula sit amet mauris volutpat eleifend at quis nibh. Sed varius ut lacus ac iaculis. ",
+    "instruction": "Vestibulum quis efficitur diam, egestas finibus velit. Nullam ac ligula tristique, blandit ex id, ullamcorper risus. Aenean quam lectus, ultrices iaculis nibh eu, vestibulum dignissim lorem. Sed quis sem in sapien vulputate tincidunt sit amet ac dui. Phasellus vitae sapien ut quam eleifend mollis ac ac nulla.",
+    "ingredients": ["rice", "mushrooms", "onion", "water", "salt", "oil"],
+    "isLiked": false
+  },
+  {
+    "id": "3",
+    "name": "Orange Cake",
+    "categoryName": "desert",
+    "weight": 130,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis mattis velit, at pretium turpis mattis eu. In fringilla eleifend vestibulum. Aliquam vitae luctus elit. Curabitur maximus tortor at metus sodales, eu finibus nunc tincidunt. Curabitur arcu libero, sollicitudin in elit sed, fringilla venenatis lectus. Quisque vel vestibulum ex. Nulla ac ligula sit amet mauris volutpat eleifend at quis nibh. Sed varius ut lacus ac iaculis. ",
+    "instruction": "Vestibulum quis efficitur diam, egestas finibus velit. Nullam ac ligula tristique, blandit ex id, ullamcorper risus. Aenean quam lectus, ultrices iaculis nibh eu, vestibulum dignissim lorem. Sed quis sem in sapien vulputate tincidunt sit amet ac dui. Phasellus vitae sapien ut quam eleifend mollis ac ac nulla.",
+    "ingredients": ["salmon", "potato", "onion", "carrot", "salt", "pepper", "greenery", "water"],
+    "isLiked": false
+  },
+  {
+    "id": "4",
+    "name": "Limonade Classic",
+    "categoryName": "coctail",
+    "weight": 130,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis mattis velit, at pretium turpis mattis eu. In fringilla eleifend vestibulum. Aliquam vitae luctus elit. Curabitur maximus tortor at metus sodales, eu finibus nunc tincidunt. Curabitur arcu libero, sollicitudin in elit sed, fringilla venenatis lectus. Quisque vel vestibulum ex. Nulla ac ligula sit amet mauris volutpat eleifend at quis nibh. Sed varius ut lacus ac iaculis. ",
+    "instruction": "Vestibulum quis efficitur diam, egestas finibus velit. Nullam ac ligula tristique, blandit ex id, ullamcorper risus. Aenean quam lectus, ultrices iaculis nibh eu, vestibulum dignissim lorem. Sed quis sem in sapien vulputate tincidunt sit amet ac dui. Phasellus vitae sapien ut quam eleifend mollis ac ac nulla.",
+    "ingredients": ["salmon", "potato", "onion", "carrot", "salt", "pepper", "greenery", "water"],
+    "isLiked": false
+  },
+  {
+    "id": "5",
+    "name": "Khachapuri",
+    "categoryName": "bake",
+    "weight": 500,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis mattis velit, at pretium turpis mattis eu. In fringilla eleifend vestibulum. Aliquam vitae luctus elit. Curabitur maximus tortor at metus sodales, eu finibus nunc tincidunt. Curabitur arcu libero, sollicitudin in elit sed, fringilla venenatis lectus. Quisque vel vestibulum ex. Nulla ac ligula sit amet mauris volutpat eleifend at quis nibh. Sed varius ut lacus ac iaculis. ",
+    "instruction": "Vestibulum quis efficitur diam, egestas finibus velit. Nullam ac ligula tristique, blandit ex id, ullamcorper risus. Aenean quam lectus, ultrices iaculis nibh eu, vestibulum dignissim lorem. Sed quis sem in sapien vulputate tincidunt sit amet ac dui. Phasellus vitae sapien ut quam eleifend mollis ac ac nulla.",
+    "ingredients": ["flour", "cheese", "egg", "milk", "yeast", "water"],
+    "isLiked": false
+  },
+  {
+    "id": "6",
+    "name": "Lobster",
+    "categoryName": "fish",
+    "weight": 600,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis mattis velit, at pretium turpis mattis eu. In fringilla eleifend vestibulum. Aliquam vitae luctus elit. Curabitur maximus tortor at metus sodales, eu finibus nunc tincidunt. Curabitur arcu libero, sollicitudin in elit sed, fringilla venenatis lectus. Quisque vel vestibulum ex. Nulla ac ligula sit amet mauris volutpat eleifend at quis nibh. Sed varius ut lacus ac iaculis. ",
+    "instruction": "Vestibulum quis efficitur diam, egestas finibus velit. Nullam ac ligula tristique, blandit ex id, ullamcorper risus. Aenean quam lectus, ultrices iaculis nibh eu, vestibulum dignissim lorem. Sed quis sem in sapien vulputate tincidunt sit amet ac dui. Phasellus vitae sapien ut quam eleifend mollis ac ac nulla.",
+    "ingredients": ["lobster", "butter", "lemon", "cheese", "olives", "bread", "sour cream"],
+    "isLiked": false
+  },
+  {
+    "id": "7",
+    "name": "Steak",
+    "categoryName": "meat",
+    "weight": 1000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis mattis velit, at pretium turpis mattis eu. In fringilla eleifend vestibulum. Aliquam vitae luctus elit. Curabitur maximus tortor at metus sodales, eu finibus nunc tincidunt. Curabitur arcu libero, sollicitudin in elit sed, fringilla venenatis lectus. Quisque vel vestibulum ex. Nulla ac ligula sit amet mauris volutpat eleifend at quis nibh. Sed varius ut lacus ac iaculis. ",
+    "instruction": "Vestibulum quis efficitur diam, egestas finibus velit. Nullam ac ligula tristique, blandit ex id, ullamcorper risus. Aenean quam lectus, ultrices iaculis nibh eu, vestibulum dignissim lorem. Sed quis sem in sapien vulputate tincidunt sit amet ac dui. Phasellus vitae sapien ut quam eleifend mollis ac ac nulla.",
+    "ingredients": ["Pork", "Soy sauce", "onion", "butter", "salt", "pepper", "Cognac"],
+    "isLiked": false
+  }
+]

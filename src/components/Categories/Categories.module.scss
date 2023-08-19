@@ -1,0 +1,31 @@
+.categories {
+  background-color: #f5f5f5;
+  padding: 15px 0px;
+  margin-bottom: 50px;
+}
+.categories__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1170px;
+  @media (max-width: 1200px) {
+    width: 95%;
+  }
+}
+.categories__item {
+  list-style-type: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 10px 10px;
+  &__active {
+    color: #a3b745;
+  }
+  // &:not(:last-child) {
+  //   margin-right: 30px;
+  // }
+}

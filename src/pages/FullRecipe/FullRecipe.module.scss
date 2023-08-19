@@ -1,0 +1,78 @@
+.container {
+  max-width: 1170px;
+  margin: 50px auto;
+  width: 100%;
+  @media (max-width: 1200px) {
+    width: 95%;
+  }
+}
+.categories {
+  margin-bottom: 20px;
+  span {
+    color: #fff;
+    background-color: #a3b745;
+    padding: 5px 15px 5px 15px;
+    border-radius: 3px;
+    font-size: 18px;
+  }
+}
+.name {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.options {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  div {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
+
+.weight {
+}
+.like {
+}
+.img__like {
+  width: 40px;
+}
+.img__container {
+  margin-bottom: 30px;
+}
+.img {
+  width: 50%;
+}
+.description {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.ingredients {
+}
+.ingredient__item {
+  font-size: 18px;
+}
+.ingredients__title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.instruction {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.delete {
+  // display: inline;
+  cursor: pointer;
+  background-color: red;
+  padding: 10px 15px;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-top: 30px;
+  border: none;
+  font-size: 18px;
+}
