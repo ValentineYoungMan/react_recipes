@@ -20,7 +20,7 @@ const Header: React.FC = () => {
           <img src={logo} />
         </div>
         <ul className={s.nav}>
-          <Link to="/" onClick={onClickHome} className={s.nav__item}>
+          <Link to="/react_recipes" onClick={onClickHome} className={s.nav__item}>
             Home
           </Link>
         </ul>
