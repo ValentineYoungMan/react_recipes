@@ -17,9 +17,6 @@ const Recipe: React.FC<RecipeItem> = ({
 }) => {
   return (
     <Link to={`/recipe/${id}`} className={s.recipe}>
-      {/* <div className={s.img}>
-        <img src={imageUrl} alt="img" />
-      </div> */}
       <div className={s.info}>
         <div className={s.category}>
           <span>{categoryName}</span>
