@@ -15,18 +15,14 @@ import axios from 'axios';
 const categoriesForNewRecipe = [...categories];
 categoriesForNewRecipe.shift();
 categoriesForNewRecipe.unshift('Choose one');
-//console.log(categoriesForNewRecipe);
 
 const CreatingRecipe: React.FC = () => {
   const dispatch = useDispatch();
-  //const { recipes, newRecipe } = useSelector(selectRecipesSliceItems);
   const { id, categoryName, ingredients } = useSelector(selectNewRecipeParameters);
 
-  //console.log(id);
 
   const [categoryActive, setCategoryActive] = useState(categoriesForNewRecipe[0]);
   const [open, setOpen] = useState(false);
-  //const [nameValue, setNameValue] = useState('');
   const nameRef = useRef<HTMLInputElement>(null);
   const weightRef = useRef<HTMLInputElement>(null);
   const imgRef = useRef<HTMLInputElement>(null);
@@ -57,7 +53,6 @@ const CreatingRecipe: React.FC = () => {
   const [descError, setDescError] = useState(reqiure);
   const [newIngError, setNewIngError] = useState(reqiure);
   const [instError, setInstError] = useState(reqiure);
-  //const [addIngError, setAddIngError] = useState('');
 
   const [categoryError, setCategoryError] = useState(true);
   const [ingredientsEror, setIngredientsError] = useState(reqiure);
@@ -103,20 +98,14 @@ const CreatingRecipe: React.FC = () => {
       setCategoryError(false);
     }
 
-    //console.log(categoriesForNewRecipe[i]);
   };
-  //console.log(categoryError);
   const onChangeInputName = (e: React.ChangeEvent<HTMLInputElement>) => {
-    // if (nameRef && nameRef.current) {
-    //dispatch(changeName(nameRef.current.value));
-    // console.log(nameRef.current.value);
     setNameValue(e.target.value);
     if (e.target.value && e.target.value.trim() != '') {
       setNameError('');
     } else {
       setNameError(reqiure);
     }
-    //  }
   };
   const onChangeInputWeight = (e: React.ChangeEvent<HTMLInputElement>) => {
     let value = e.target.value;
@@ -128,11 +117,9 @@ const CreatingRecipe: React.FC = () => {
     } else {
       setWeightError(reqiure);
     }
-    //  }
   };
 
   const createDescription = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    //dispatch(addDescription(descriptionRef.current.value));
     setDescValue(e.target.value);
     if (e.target.value && e.target.value.trim() != '') {
       setDescError('');
@@ -151,19 +138,10 @@ const CreatingRecipe: React.FC = () => {
 
   const onChangeIngItemValue = (e: React.ChangeEvent<HTMLInputElement>) => {
     setAddIngItemValue(e.target.value);
-    // if (e.target.value && e.target.value.trim() != '') {
-    //   setNewIngError('');
-    // } else {
-    //   setNewIngError(reqiure);
-    // }
   };
 
   const addNewIngredient = () => {
-    // if (!addIngItemValue) {
-    //   setAddIngError(require);
-    // } else {
     if (ingredientRef && ingredientRef.current) {
-      // dispatch(addIngredient(ingredientRef.current.value));
       if (ingredientsEror) {
         setIngredientsError('');
       }
@@ -171,10 +149,7 @@ const CreatingRecipe: React.FC = () => {
 
       ingredientRef.current.value = '';
       setAddIngItemValue('');
-      //console.log(ingredientRef.current?.value);
-      //setAddIngError('');
     }
-    //  }
   };
 
   const removeNewIngredient = (item: string) => {
@@ -189,7 +164,6 @@ const CreatingRecipe: React.FC = () => {
     if (submitState) {
       const item: RecipeItem = {
         id: String((Math.random() * 100000).toFixed(0)),
-        //  imageUrl: 'selectedFileselectedFile',
         name: String(nameRef.current?.value),
         categoryName,
         weight: Number(weightValue),
@@ -198,7 +172,6 @@ const CreatingRecipe: React.FC = () => {
         ingredients: ingredients,
         isLiked: false,
       };
-      //dispatch(addRecipe(item));
       setSubmitState(false);
 
       axios
@@ -246,14 +219,6 @@ const CreatingRecipe: React.FC = () => {
               onBlur={(e) => blurHandler(e)}
             />
           </div>
-          {/* <div className={s.img}>
-            <input
-              ref={imgRef}
-              type="file"
-              accept="image/*,.png,.jpg,.gif,.web,"
-              onChange={(event) => choosePhoto(event)}
-            />
-          </div> */}
           <div className={s.descpiption}>
             <div className={s.descpiption__title}>Description</div>
             {descDirty && descError && <div className={s.error}>{descError}</div>}
@@ -297,8 +262,6 @@ const CreatingRecipe: React.FC = () => {
           </div>
           <div className={s.inputName}>
             <div className={s.name}>Ingredients</div>
-            {/* {addIngError && <div>{addIngError}</div>} */}
-            {/* {newIngDirty && newIngError && <div>{newIngError}</div>} */}
             <input
               ref={ingredientRef}
               type="text"
