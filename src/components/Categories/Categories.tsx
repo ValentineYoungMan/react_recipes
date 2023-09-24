@@ -6,7 +6,6 @@ import {
   selectRecipesSliceItems,
   setCategoryId,
   setFilter,
-  //  setFilteredCategoryRecipe,
 } from '../../redux/reducers/recipesSlice';
 import { selectNewRecipeParameters } from '../../redux/reducers/newRecipeSlice';
 
@@ -29,13 +28,10 @@ const Categories: React.FC = () => {
   const dispatch = useDispatch();
 
   const { categoryValue } = useSelector(selectRecipesSliceItems);
-  //console.log(categoryId);
-  console.log(categoryValue);
 
   const onChooseCategory = (item: string) => {
     dispatch(setCategoryId(item));
   };
-  //console.log('qs');
   return (
     <div className={s.categories}>
       <ul className={s.categories__container}>
