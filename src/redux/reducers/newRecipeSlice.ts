@@ -3,7 +3,6 @@ import { RootState } from '../store';
 
 export type RecipeItem = {
   id: string;
-  // imageUrl: string;
   name: string;
   categoryName: string;
   weight: number;
@@ -15,7 +14,6 @@ export type RecipeItem = {
 
 const initialState: RecipeItem = {
   id: String((Math.random() * 100000).toFixed(0)),
-  // imageUrl: '',
   name: '',
   categoryName: 'Choose one',
   weight: 0,
@@ -29,10 +27,6 @@ const newRecipeSlice = createSlice({
   name: 'newRecipe',
   initialState,
   reducers: {
-    //addRecipe(state, action: PayloadAction<RecipeItem>) {
-    //  state.recipes = [...state.recipes, action.payload];
-    //  //console.log(state.recipes);
-    //},
     setCategory(state, action: PayloadAction<string>) {
       state.categoryName = action.payload;
     },
