@@ -181,7 +181,7 @@ const CreatingRecipe: React.FC = () => {
           console.log('yeeeeaaaaa');
 
           window.location.reload();
-          window.location.pathname = '/';
+          window.location.pathname = '/react_recipes';
         })
         .catch((err) => console.log(err));
       console.log('clickkk');
