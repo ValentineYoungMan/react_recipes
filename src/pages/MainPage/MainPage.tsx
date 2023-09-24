@@ -7,7 +7,6 @@ import recipesSlice, {
   RecipeSliceState,
   selectRecipesSliceItems,
 } from '../../redux/reducers/recipesSlice';
-//import recipes from './../../assets/recipes.json';
 import { RootState, useAppDispatch } from '../../redux/store';
 import { fetchRecipes, selectRecipeData } from '../../redux/reducers/fetchSlice';
 import { useNavigate } from 'react-router-dom';
@@ -17,9 +16,7 @@ const MainPage: React.FC = () => {
   const { categoryValue } = useSelector(selectRecipesSliceItems);
   const navigate = useNavigate();
   const pathname = window.location.pathname;
-  // console.log(categoryId);
-  //console.log(navigate);
-  //console.log(pathname);
+  
 
   const dispatch = useAppDispatch();
 
