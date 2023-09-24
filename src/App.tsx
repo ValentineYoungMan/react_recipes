@@ -13,7 +13,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/react_recipes" element={<MainPage />} />
+        <Route path="react_recipes" element={<MainPage />} />
         <Route path="newRecipe" element={<CreatingRecipe />} />
         <Route path="recipe/:id" element={<FullRecipe />} />
       </Routes>
