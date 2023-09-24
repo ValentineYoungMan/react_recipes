@@ -28,7 +28,7 @@ const FullRecipe: React.FC = () => {
         setCurrentRecipe(data);
       } catch (error) {
         alert('error');
-        navigate('/');
+        navigate('/react_recipes');
       }
     }
 
@@ -64,7 +64,7 @@ const FullRecipe: React.FC = () => {
           console.log(res);
           console.log('yeho');
           window.location.reload();
-          window.location.pathname = '/';
+          window.location.pathname = '/react_recipes';
         })
         .catch((err) => console.log(err));
     }
